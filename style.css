@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Avenir Roman';
+    src: url('avenir-roman.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("original.jpg");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    color: #f9f9f9;
+    font-size: 28px;
+    line-height: 38px;
+    font-family: 'Avenir Roman', sans-serif;
+    letter-spacing: normal;
+    margin-bottom: 24px;
+}
+
+.logo-img {
+    width: 320px;
+    height: 174px;
+}
+
+.container{
+    width: 44%;
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.combo{
+    font-size: 18px;
+    background: #6421ff;
+    color: #f9f9f9;
+    margin-top: 50px;
+    padding: 20px 220px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button.combo:hover{
+    background:#8553f8;
+}
+
+a{
+    margin-top: 30px;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-family: 'Avenir Roman', sans-serif;
+}
+
+button.login-btn{
+    background-color: #000000;
+    border: 1px solid silver;
+    color: #f9f9f9;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 19px;
+    letter-spacing: normal;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 40px;
+    transition: 1.5s;
+}
+
+button.login-btn:hover{
+    background: #f9f9f9;
+    color: black;
+    transition: 1s;
+}
+
+.login-btn{
+    cursor: pointer;
+}
